@@ -1,0 +1,24 @@
+[flake8]
+max-line-length = 119
+max-complexity = 10
+ignore = W503,R504
+inline-quotes = double
+enable-extensions=G,M
+exclude =
+    main/settings.py
+    .git,
+    main,
+    angular,
+    migrations,
+    *migrations*
+    settings.py
+    manage.py
+    documentation/views.py
+per-file-ignores =
+    */__init__.py:F401
+    */admin.py:F401
+    */views.py:A002
+    */tests.py:F401
+
+show-source = True
+statistics = True
