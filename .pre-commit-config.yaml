@@ -1,9 +1,13 @@
 repos:
-  - repo: https://github.com/timothycrosley/isort
+#  - repo: https:://github.com/psf/black
+#    rev: 20.8b1
+#    hooks:
+#      - id : black
+  - repo: https://github.com/PYCQA/isort
     rev: 4.3.21
     hooks:
       - id: isort
-        repo: https://gitlab.com/pycqa/flake8
+        repo: https://gitlab.com/PyCQA/flake8
         rev: 3.7.9
         hooks:
           id: flake8
