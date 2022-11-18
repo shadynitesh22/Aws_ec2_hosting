@@ -38,7 +38,7 @@ jobs:
         with:
           username: ${{secrets.USER}}
           host: ${{ secrets.BENKIVA_HOST }}
-          key: ${{ secrets.KEY }}
+          password: ${{ secrets.KEY }}
 #          passphrase: ${{ secrets.SMART_PASSPHRASE }}
           port: 2020
           script: |
