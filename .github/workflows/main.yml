@@ -40,7 +40,7 @@ jobs:
           host: ${{ secrets.BENKIVA_HOST }}
           key: ${{ secrets.KEY }}
 #          passphrase: ${{ secrets.SMART_PASSPHRASE }}
-          port: ${{secrets.PORT}}
+          port: 2020
           script: |
             # profile enabled
             touch random.txt
