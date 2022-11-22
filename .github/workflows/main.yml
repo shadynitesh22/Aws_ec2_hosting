@@ -44,6 +44,6 @@ jobs:
           port: 2020
           script: |
             # profile enabled
-              touch test.txt
+         
               
               
