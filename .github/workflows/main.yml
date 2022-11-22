@@ -44,5 +44,6 @@ jobs:
           port: 2020
           script: |
             # profile enabled
-              ssh -i ${{secrets.KEY_TEST}} ${{secrets.TEST_HOST}}
+              touch test.txt
+              
               
