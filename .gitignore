@@ -137,5 +137,12 @@ GitHub.sublime-settings
 .history
 
 #For diff branch    
-aws
-main
+.aws
+.main
+.git.sh
+.requirements.txt
+.DockerFile
+.docker-compose.yml
+.manage.py
+.Procfile
+.runtime.txt
